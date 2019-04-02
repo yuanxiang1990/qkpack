@@ -1,0 +1,10 @@
+{
+    "group": "fe-common",
+    "name": "utopia-quicklogin",
+    "author": "熊洋",
+    "version": "0.1.5",
+    "description": "快速登录组件",
+    "environments": ["v6style","fis-common"],
+    "entry": "./src/index.js",
+    "dependencies": {}
+}

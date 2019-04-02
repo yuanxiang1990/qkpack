@@ -1,0 +1,27 @@
+{
+  "name": "qkpack",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect-brk  ./node_modules/webpack/bin/webpack.js --config ./config/webpack.config.js",
+    "build": "node index qk release"
+  },
+  "bin": {
+    "qk": "index.js"
+  },
+  "author": "yuanx",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "baidutemplate-x": "^1.0.6",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "url-loader": "^1.1.2"
+  }
+}
