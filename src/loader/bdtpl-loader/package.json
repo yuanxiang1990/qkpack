@@ -1,0 +1,11 @@
+{
+  "name": "bdtpl-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "yuanx",
+  "license": "MIT",
+  "devDependencies": {
+    "baidutemplate-x": "^1.0.6"
+  }
+}

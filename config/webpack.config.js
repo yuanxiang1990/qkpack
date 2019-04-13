@@ -30,6 +30,10 @@ module.exports = {
             },
         ]
     },
+    resolveLoader: {
+        // 去哪些项目下寻找Loader，有先后顺序之分
+        modules: ['./node_modules', './src/loader'],
+    },
     output: {
         path: path.join(__dirname, "../dist"),
         filename: "[name].bundle.js"

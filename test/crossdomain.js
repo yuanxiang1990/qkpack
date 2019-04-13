@@ -10,7 +10,7 @@
  * 前置过滤器扩展
  */
 var rQuery = (/\?/);
-
+var cookie = require('fe-common/utopia-co@0.0.1');
 $.ajaxPrefilter('crossdomain', function(settings, originalSettings, jqXHR) {
 
   settings.crossDomain = true;
